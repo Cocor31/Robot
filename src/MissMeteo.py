@@ -114,9 +114,9 @@ class MissMeteo():
 
         if ' aujourd' in phrase.lower():
             forcast = 0
-        elif " après-demain " in phrase.lower() or " après demain " in phrase.lower():
+        elif " après-demain" in phrase.lower() or " après demain" in phrase.lower():
             forcast = 2
-        elif " demain " in phrase.lower():
+        elif " demain" in phrase.lower():
             forcast = 1
         else :
             jours = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
