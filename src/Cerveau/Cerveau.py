@@ -17,6 +17,9 @@ class Cerveau:
     
     def remplace(self, demande, reponse):
         self.phrase.patch(demande, reponse)
+    
+    def oubli(self, demande):
+        self.phrase.delete(demande)
 
 
 #####################################################################################
